@@ -1,0 +1,6 @@
+inp = input("enter your operation : ")
+input = inp.split(" ")
+
+if inp[1] == "/" :
+    res = float(inp[0]) / float(inp[2])
+print(res)
