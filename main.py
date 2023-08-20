@@ -9,6 +9,10 @@ def calculate(num1, num2, operation):
         elif operation == "-":
                result =  num1 - num2
                return result
+        elif inp[1] == "/" :
+            result = float(inp[0]) / float(inp[2])
+            return result
+                
 
 
 
