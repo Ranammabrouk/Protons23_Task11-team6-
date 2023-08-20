@@ -1,10 +1,14 @@
 #TODO Calculator FUNCTIONS
 
 def calculate(num1, num2, operation):
-        if operation == "*" or "x" or "X":
+        if operation == "*" or operation == "x" or operation == "X":
                 result=num1 * num2
                 return result
         #TODO (CONTINUE ON THE SAME PATTERN
+        
+        elif operation == "-":
+               result =  num1 - num2
+               return result
 
 
 
