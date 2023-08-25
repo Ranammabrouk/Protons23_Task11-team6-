@@ -1,6 +1,8 @@
-operation=input()
-if operation=="1":
-    num1=input("enter first number")
-    num2=input("enter second number")
-    print ("the sum is"+ str(int(num1) + int(num2)))
-#code for add
+def perform_addition():
+    num1 = input("Enter the first number: ")
+    num2 = input("Enter the second number: ")
+    result = int(num1) + int(num2)
+    print("The sum is:", result)
+operation = input("Select an operation (1 for addition): ")
+if operation == "1":
+    perform_addition()
