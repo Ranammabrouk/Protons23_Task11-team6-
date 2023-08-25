@@ -9,6 +9,9 @@ def calculate(num1, num2, operation):
         elif operation == "-":
                result =  num1 - num2
                return result
+        elif operation=="+":
+                result=num1+num2
+                return result
 
 
 
